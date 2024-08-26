@@ -4,6 +4,7 @@ public class Principal1
 { 
   public static void main(String[] args) {
 
+   
         PoliF1 pol1 = new PoliF1(0, -8);
         pol1.insertarTermino(3,2);
         pol1.insertarTermino(2, 4);
