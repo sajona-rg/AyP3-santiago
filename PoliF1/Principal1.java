@@ -24,7 +24,6 @@ public class Principal1 {
           int coef = sc.nextInt();
           System.out.print("Ingrese exp: ");
           int exp = sc.nextInt();
-
           pol1.insertarTermino(coef, exp);
         }
 
