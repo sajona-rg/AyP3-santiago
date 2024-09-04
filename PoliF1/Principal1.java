@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class Principal1 {
   public static void main(String[] args) {
+
     Scanner sc = new Scanner(System.in);
+
     PoliF1 pol1 = new PoliF1(0, 0);
     PoliF1 pol2 = new PoliF1(0, 0);
 
@@ -56,9 +58,9 @@ public class Principal1 {
         producto = pol1.multiplicar(pol2);
 
         System.out.println("producto: \n" + producto.mostrarPolinomio());
-        break;
-      }
 
+      }
     }
+
   }
 }
